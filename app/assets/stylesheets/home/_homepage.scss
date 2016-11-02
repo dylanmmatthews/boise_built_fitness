@@ -1,0 +1,58 @@
+//Breakpoints for screen sizes
+$bp-mobile: 767px;
+$bp-portrait: 768px;
+$bp-landscape: 1200px;
+$bp-desktop: 1248px;
+
+//Colors
+$boise-red: #90230a;
+$boise-blue: #3b5998;
+$white: #fff;
+
+@media screen and (max-width: $bp-mobile) 
+{
+	.wsite-section-content {
+		text-align: center;
+		background-color: $boise-blue;
+		.header {	
+			h2 {
+				color: $white;
+				font-family: sans-serif;
+				font-size: 60px;
+				font-weight: 200;
+				letter-spacing: 0.7px;
+				line-height: 75px;
+				padding-bottom: 20px;
+				margin: 0;
+			}
+			.paragraph {
+				color: #bfbfbf;
+				font-size: 18px;
+				font-weight: 500;
+				font-family: sans-serif;
+				letter-spacing: 0.18px;
+				margin: 0;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $bp-portrait)
+{
+	.background {
+		background-color: #fff;
+		h1 {
+			color: $boise-red;
+		}
+	}
+}
+
+@media screen and (max-width: $bp-landscape)
+{
+
+} 
+
+@media screen and (min-width: $bp-desktop)
+{
+
+}

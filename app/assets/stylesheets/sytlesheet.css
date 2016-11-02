@@ -1,0 +1,21 @@
+body{margin: 0},
+h1 {
+	color: #90230a;
+	font-size: 48px;
+	padding-top: 75px;
+	text-align: center;
+	font-weight: 600;
+},
+h3 {
+	text-align: center;
+	padding-top: 15px;
+},
+h2 {
+  padding: 0 0 5px;
+  color: #3b5998;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 600;
+  text-decoration: underline;
+}
